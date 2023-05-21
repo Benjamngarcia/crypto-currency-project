@@ -1,6 +1,6 @@
 # CRYPTO CURRENCY PROJECT 💹
 
-This is a project I am working on to practice my skills in React JS and Tailwind CSS. I am also implementing TypeScript in this project.
+In this project I'm working on to practice my skills in React JS, Tailwind CSS and TypeScript.
 
 # Getting Started 🚀
 
@@ -38,4 +38,4 @@ The development of this project was made possible by using different technologie
 - [TypeScript](https://www.typescriptlang.org/) - Superset of JavaScript.
 - [CoinGecko API](https://www.coingecko.com/es/api) - Public API for querying cryptocurrency data.
 
-Made with ❤️ by [Benjamín Arturo Pérez García](https://github.com/Benjamngarcia)
+Made with ❤️ by [Benjamín García](https://github.com/Benjamngarcia)

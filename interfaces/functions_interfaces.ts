@@ -15,3 +15,7 @@ export interface InfoRequestContext {
   decrementPage: (page:number) => void;
   changePage: (page: number) => void;
 }
+
+export interface GetCoinDetailsOptions {
+  id: string;
+} 

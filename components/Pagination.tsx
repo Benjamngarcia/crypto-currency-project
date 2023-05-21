@@ -19,9 +19,8 @@ export function Pagination() {
           <IconChevronLeft />
         </button>
         {pages.map(page => (
-          <li>
+          <li key={page}>
             <button
-              key={page}
               onClick={() => changePage(page)}
               className={`px-3 py-2 leading-tight 
               ${page == infoRequestAllMarket.page ?

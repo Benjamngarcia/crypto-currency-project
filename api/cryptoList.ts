@@ -7,7 +7,6 @@ export async function getAllCoinsMarkets(requestData : GetAllCoinsMarketsOptions
   try {
     let url : string = `${BASE_PATH}/coins/markets?vs_currency=${vsCurrency}&per_page=${perPage}&page=${page}`
     let response = await axios.get(url)
-    console.log("🚀 ~ file: cryptoList.ts:10 ~ getAllCoinsMarkets ~ response:", response)
     return response.data
   } catch (error) {
     return null

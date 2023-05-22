@@ -19,3 +19,10 @@ export interface InfoRequestContext {
 export interface GetCoinDetailsOptions {
   id: string;
 } 
+
+export interface GetRangeHistoryOptions {
+  id: string;
+  vsCurrency: string;
+  from: string;
+  to: string;
+}
